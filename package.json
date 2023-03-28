@@ -1,0 +1,22 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@kovsu/eslint-config-vue": "^0.1.0",
+    "@nuxtjs/color-mode": "^3.2.0",
+    "@types/node": "^18.15.10",
+    "@unocss/nuxt": "^0.50.6",
+    "eslint": "^8.36.0",
+    "nuxt": "^3.3.2"
+  },
+  "eslintConfig": {
+    "extends": ["@kovsu/eslint-config-vue"]
+  }
+}
