@@ -8,17 +8,24 @@ const colorMode = useColorMode();
       <div v-if="colorMode.value === 'light'" class="i-material-symbols-dark-mode-outline" @click="colorMode.value = 'dark'" />
       <div v-else class="i-material-symbols-light-mode-outline" @click="colorMode.value = 'light'" />
     </div>
-    <div h-screen py-6 px-14 snap-start>
-      <h1>Mellow Theme Design</h1>
+    <div h-screen snap-start>
+      <div h-screen py-6 px-14 text-9xl hd-en font-extrabold flex flex-col justify-center gap-12>
+        <span text-center>Mellow</span>
+        <span flex items-center justify-center gap-4>
+          <img src="mellow.svg" alt="logo">
+          Theme
+        </span>
+        <span text-center>Design</span>
+      </div>
     </div>
     <div h-screen py-6 px-14 snap-start>
-      <h1>Colors</h1>
+      <Colors />
     </div>
     <div h-screen py-6 px-14 snap-start>
-      <h1>Typography</h1>
+      <Typography />
     </div>
     <div h-screen py-6 px-14 snap-start>
-      <h1>Icons</h1>
+      <Icons />
     </div>
   </div>
 </template>

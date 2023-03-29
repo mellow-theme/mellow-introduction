@@ -1,5 +1,9 @@
-export const colors = {
-  font: {
+export const colors: {
+  [key: string]: {
+    [key: string]: string
+  }
+} = {
+  midnight: {
     50: "#e6e6e6",
     100: "#c0c0c0",
     200: "#969696",
@@ -11,7 +15,7 @@ export const colors = {
     800: "#1c1c1c",
     900: "#111111",
   },
-  purple: {
+  deepPlum: {
     50: "#e9e0f0",
     100: "#c9b3da",
     200: "#a580c1",
@@ -27,7 +31,7 @@ export const colors = {
     A400: "#691fff",
     A700: "#5805ff",
   },
-  orange: {
+  vividOrange: {
     50: "#fff4e0",
     100: "#ffe4b3",
     200: "#ffd280",
@@ -43,7 +47,7 @@ export const colors = {
     A400: "#ffdabf",
     A700: "#ffcba6",
   },
-  red: {
+  coralRed: {
     50: "#ffecec",
     100: "#fed0d0",
     200: "#feb0b0",
@@ -59,7 +63,7 @@ export const colors = {
     A400: "#ffd9d9",
     A700: "#ffbfbf",
   },
-  green: {
+  aquaGreen: {
     50: "#e7faf4",
     100: "#c2f3e4",
     200: "#99ebd3",
@@ -75,7 +79,7 @@ export const colors = {
     A400: "#87ffcd",
     A700: "#6effc2",
   },
-  blue: {
+  brightBlue: {
     50: "#e4f2ff",
     100: "#bcdeff",
     200: "#8fc8ff",
@@ -91,7 +95,7 @@ export const colors = {
     A400: "#c2d5ff",
     A700: "#a8c3ff",
   },
-  grey: {
+  ghostWhite: {
     50: "#fbfcfd",
     100: "#f6f8fa",
     200: "#f0f3f6",
