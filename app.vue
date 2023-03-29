@@ -12,7 +12,7 @@ const colorMode = useColorMode();
       <div h-screen py-6 px-14 text-9xl hd-en font-extrabold flex flex-col justify-center gap-12>
         <span text-center>Mellow</span>
         <span flex items-center justify-center gap-4>
-          <img src="mellow.svg" alt="logo">
+          <img src="./public/mellow.svg" alt="logo">
           Theme
         </span>
         <span text-center>Design</span>
