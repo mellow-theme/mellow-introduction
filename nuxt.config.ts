@@ -1,3 +1,4 @@
+import { fileURLToPath } from "url";
 import { defineNuxtConfig } from "nuxt/config";
 import { appDescription } from "./constants/index";
 
@@ -10,11 +11,17 @@ export default defineNuxtConfig({
   colorMode: {
     classSuffix: "",
   },
+  alias: {
+    css: fileURLToPath(new URL("./assets/css", import.meta.url)),
+  },
+  css: [
+    "css/index.css",
+  ],
   app: {
     head: {
       viewport: "width=device-width,initial-scale=1",
       link: [
-        { rel: "icon", type: "image/svg+xml", href: "/mellow.svg" },
+        { rel: "icon", type: "image/png", href: "/mellow.png" },
       ],
       meta: [
         { name: "viewport", content: "width=device-width, initial-scale=1" },

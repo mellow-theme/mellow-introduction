@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #fff;
+  color: #2D2D2D;
+}
+
+html.dark {
+  background-color: #161417;
+  color: #fff;
+}
+
+/* 滚动条整体 */
+::-webkit-scrollbar {
+  height: 20px;
+  width: 10px;
+}
+/* 两个滚动条交接处 -- x轴和y轴 */
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+/* 滚动条滑块 */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #adadade6;
+}
+
+/* 滚动条轨道 */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: transparent;
+}
